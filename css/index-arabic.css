@@ -1,0 +1,68 @@
+.landing .text-content p {
+    margin-top: 17px;
+}
+.header .nav > li > a::before {
+    left: initial;
+    right: -100%;
+}
+.header .nav > li > a:hover::before {
+    right: 0;
+}
+.header .mega-menu .links li a i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.header .mega-menu .links li a {
+    background: linear-gradient(to left, #DDD 50% , white 50%);
+    background-size: 201% 100%;
+    background-position: left bottom;
+}
+.header .mega-menu .links li a:hover {
+    background-position: right bottom;
+}
+.articles .articles-card .articles-card-info i {
+    transform: rotateY(180deg);
+}
+.articles .articles-card:hover .articles-card-info i {
+    animation: none;
+    animation: go-left 0.5s linear infinite;
+}
+.articles .articles-card .articles-card-content p {
+    line-height: 1.4;
+}
+.features .features-card p {
+    line-height: 1.7;
+}
+.testimonials .testimonial-card img {
+    left: -10px;
+    right: initial;
+}
+.testimonials .testimonial-card p {
+    line-height: 1.7;
+}
+.team-members .team-card::before,
+.team-members .team-card::after {
+    left: 0;
+    right: initial;
+}
+.team-members .team-card .team-card-info h6,
+.team-members .team-card .team-card-info p {
+    padding-left: initial;
+    padding-right: 80px;
+    letter-spacing: 0.5px;
+}
+.services .service-card span {
+    text-align: left;
+}
+.service-card span::before {
+    right: 0;
+    padding-right: 0 !important;
+    padding-left: 20px;
+}
+.service-card span::after {
+    right: 80px;
+}
+.discount .image h3 {
+    letter-spacing: 1px;
+    word-spacing: -5.5px;
+}
